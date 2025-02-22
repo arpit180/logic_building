@@ -1,0 +1,68 @@
+1. Check Positive Number:    public class CheckPositive {
+    public static void main(String[] args) {
+        int number = 10; // Predefined number
+        if (number > 0) {
+            System.out.println("Number is positive");
+        } else {
+            System.out.println("Number is not positive");
+        }
+    }
+}
+
+3. Check Odd or Even Number:
+public class CheckOddEven {
+    public static void main(String[] args) {
+        int number = 5; // Predefined number
+        if (number % 2 == 0) {
+            System.out.println("Number is even");
+        } else {
+            System.out.println("Number is odd");
+        }
+    }
+}
+
+4. Display Good Morning Message Based on Time:
+public class GoodMorning {
+    public static void main(String[] args) {
+        int time = 8; // Predefined time (in hours)
+        if (time >= 5 && time < 12) {
+            System.out.println("Good Morning");
+        }
+    }
+}
+
+5.public class AreaOfSquare {
+    public static void main(String[] args) {
+        int side = 4; // Predefined side length
+        int area = side * side;
+        System.out.println("Area of the square: " + area);
+    }
+}
+
+6.public class AreaOfRectangle {
+    public static void main(String[] args) {
+        int length = 5; // Predefined length
+        int width = 3; // Predefined width
+        int area = length * width;
+        System.out.println("Area of the rectangle: " + area);
+    }
+}
+
+7.public class LargestOfThree {
+    public static void main(String[] args) {
+        int num1 = 10; // Predefined number 1
+        int num2 = 20; // Predefined number 2
+        int num3 = 30; // Predefined number 3
+        int largest;
+
+        if (num1 > num2 && num1 > num3) {
+            largest = num1;
+        } else if (num2 > num1 && num2 > num3) {
+            largest = num2;
+        } else {
+            largest = num3;
+        }
+
+        System.out.println("The largest number is: " + largest);
+    }
+}
